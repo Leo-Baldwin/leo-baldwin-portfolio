@@ -17,3 +17,8 @@ reveals.forEach((section) => {
   section.classList.add("reveal");
   observer.observe(section);
 });
+
+const yearNode = document.querySelector("#current-year");
+if (yearNode) {
+  yearNode.textContent = String(new Date().getFullYear());
+}
