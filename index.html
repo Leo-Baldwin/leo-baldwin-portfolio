@@ -22,7 +22,6 @@
       <div class="logo">LB</div>
       <nav class="nav">
         <a href="#stack">Stack</a>
-        <a href="#interests">Interests</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -32,9 +31,7 @@
       <section class="hero">
         <h1>Hi there, I'm Leo.</h1>
         <p class="lead">
-          A final-year Software Engineering student designing data-driven systems
-          with Python, Java, and SQL. Building reliable, maintainable software
-          with clean architecture.
+          A final-year Software Engineering student based in Cambridge, UK.
         </p>
         <div class="hero-actions">
           <a class="btn" href="#projects">View Projects</a>
@@ -48,93 +45,26 @@
           <p>Tools I'm actively learning and using.</p>
         </div>
         <div class="stack-grid">
-          <article class="stack-card">
-            <h3>Languages</h3>
-            <ul class="chip-list">
-              <li>Java</li>
-              <li>Python</li>
-            </ul>
-          </article>
-          <article class="stack-card">
-            <h3>Build &amp; Dependency</h3>
-            <ul class="chip-list">
-              <li>Maven</li>
-            </ul>
-          </article>
-          <article class="stack-card">
-            <h3>Development Tools</h3>
-            <ul class="chip-list">
-              <li>Git / GitHub</li>
-              <li>VS Code</li>
-            </ul>
-          </article>
-          <article class="stack-card">
-            <h3>Databases</h3>
-            <ul class="chip-list">
-              <li>SQL (relational databases)</li>
-            </ul>
-          </article>
-          <article class="stack-card">
-            <h3>System &amp; Environment</h3>
-            <ul class="chip-list">
-              <li>macOS</li>
-              <li>Homebrew</li>
-            </ul>
-          </article>
-          <article class="stack-card">
-            <h3>Runtime &amp; Deployment</h3>
-            <ul class="chip-list">
-              <li>Java Virtual Machine (JVM)</li>
-              <li>Docker</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="interests" class="section">
-        <div class="section-title">
-          <h2>Areas of Interest</h2>
-          <p>Topics I'm exploring as I build my foundation.</p>
-        </div>
-        <div class="interest-grid">
-          <article class="interest-card">
-            <h3>Distributed architecture</h3>
-            <p>Client-server and distributed system design.</p>
-          </article>
-          <article class="interest-card">
-            <h3>Storage strategies</h3>
-            <p>File chunking, replication, and storage design trade-offs.</p>
-          </article>
-          <article class="interest-card">
-            <h3>Build pipelines</h3>
-            <p>Dependency management and Java build workflows.</p>
-          </article>
-          <article class="interest-card">
-            <h3>Runtime environments</h3>
-            <p>Classpath management and JVM runtime behavior.</p>
-          </article>
-          <article class="interest-card">
-            <h3>Networking fundamentals</h3>
-            <p>TCP-based systems and practical networking fundamentals.</p>
-          </article>
-          <article class="interest-card">
-            <h3>Packaging &amp; deployment</h3>
-            <p>Packaging and shipping Java applications reliably.</p>
-          </article>
+          <article class="stack-tile">Java</article>
+          <article class="stack-tile">Python</article>
+          <article class="stack-tile">SQL</article>
+          <article class="stack-tile">Maven</article>
+          <article class="stack-tile">Git / GitHub</article>
+          <article class="stack-tile">VS Code</article>
+          <article class="stack-tile">MySQL</article>
+          <article class="stack-tile">PostgreSQL</article>
         </div>
       </section>
 
       <section id="projects" class="section">
         <div class="section-title">
           <h2>Selected Projects</h2>
-          <p>Built with research rigor and production thinking.</p>
+          <p>My top projects.</p>
         </div>
         <div class="projects">
-          <article class="project-card">
+          <a class="project-card project-link-card" href="https://github.com/Leo-Baldwin/distributed-file-storage-system" target="_blank" rel="noreferrer">
             <header>
               <h3>Distributed File Storage System</h3>
-              <p class="meta">Java • Distributed Systems &amp; Backend Architecture</p>
-              <p class="meta">Final-Year Degree Project · Cambridge, UK</p>
             </header>
             <ul>
               <li>Delivered a fault-tolerant storage backend with secure chunking.</li>
@@ -142,13 +72,11 @@
               <li>Coordinated uploads and retrievals via a clear client-server model.</li>
               <li>Applied RAID and HDFS concepts to guide redundancy and consistency.</li>
             </ul>
-          </article>
+          </a>
 
-          <article class="project-card">
+          <a class="project-card project-link-card" href="https://github.com/Leo-Baldwin/library-management-system" target="_blank" rel="noreferrer">
             <header>
               <h3>Library Management System</h3>
-              <p class="meta">Java • Object-Oriented Architecture</p>
-              <p class="meta">Third-Year Degree Project · Cambridge, UK</p>
             </header>
             <ul>
               <li>Produced a clean OO console system with clear domain models.</li>
@@ -156,27 +84,15 @@
               <li>Implemented a complete loan/reservation lifecycle with FIFO queues.</li>
               <li>Added domain exceptions for precise, user-friendly validation.</li>
             </ul>
-          </article>
+          </a>
 
-          <article class="project-card">
-            <header>
-              <h3>AI Response Classifier</h3>
-              <p class="meta">Python • Natural Language Processing</p>
-              <p class="meta">Second-Year Degree Project · Cambridge, UK</p>
-            </header>
-            <ul>
-              <li>Fine-tuned a transformer model to improve response classification.</li>
-              <li>Built a full NLP pipeline for cleaning, training, and evaluation.</li>
-              <li>Managed class imbalance and evaluated results with robust metrics.</li>
-            </ul>
-          </article>
         </div>
       </section>
 
       <section id="contact" class="section contact">
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Want the full CV or project details? Let's connect.</p>
+          <p>Want the full CV? Let's connect.</p>
         </div>
         <div class="contact-links">
           <a class="contact-link" href="https://www.linkedin.com/in/leobaldwin1" target="_blank" rel="noreferrer">
@@ -190,7 +106,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="current-year">2026</span> Leo Baldwin. Built with intention.</p>
+      <p>© <span id="current-year">2026</span> Leo Baldwin.</p>
     </footer>
 
     <script src="main.js"></script>
